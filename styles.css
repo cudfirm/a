@@ -101,10 +101,10 @@ a:hover {
        ######################################## */
 .app-container {
   display: flex;
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
-  min-height: 90vh;
-  max-height: 90vh;
+  min-height: 100vh;
+  max-height: 100vh;
 }
 
 .sidebar-left {
@@ -509,6 +509,9 @@ Make the left sidebar take up 25% of the screen width on mobile devices
   }
   .content-area {
     flex: 1 1 auto;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
   }
 }
 
