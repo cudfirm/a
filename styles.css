@@ -101,10 +101,10 @@ a:hover {
        ######################################## */
 .app-container {
   display: flex;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
-  min-height: fit-content;
-  max-height: fit-content;
+  min-height: 90vh;
+  max-height: 90vh;
 }
 
 .sidebar-left {
