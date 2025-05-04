@@ -174,7 +174,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   position: relative;
-  overflow: hidden;
+  overflow: auto;
+  height: 100%;
 }
 
 .content-header {
